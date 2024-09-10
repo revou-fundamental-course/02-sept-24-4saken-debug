@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik - Luas & Keliling Segitiga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Katik</h1>
+        <p>Hai Sobat, Selamat datang di Katik :) Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        
+        <h2>Segitiga</h2>
+        
+        <div class="form-section">
+            <h3>Hitung Luas & Keliling Segitiga</h3>
+            <label for="base">Panjang Alas (a):</label>
+            <input type="number" id="base" placeholder="Masukkan alas" required>
+
+            <label for="height">Tinggi (t):</label>
+            <input type="number" id="height" placeholder="Masukkan tinggi" required>
+
+            <label for="sideA">Sisi A:</label>
+            <input type="number" id="sideA" placeholder="Masukkan sisi A" required>
+
+            <label for="sideB">Sisi B:</label>
+            <input type="number" id="sideB" placeholder="Masukkan sisi B" required>
+
+            <button id="calculateBtn">Hitung</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <div id="resultSection">
+            <h3>Hasil Perhitungan</h3>
+            <p id="areaResult">Luas Segitiga : </p>
+            <p id="perimeterResult">Keliling Segitiga : </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
